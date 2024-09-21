@@ -24,7 +24,6 @@ var VanzAudioxx = new Audio("https://mkxchl.github.io/vanz/assets/mix/TerekBalek
 VanzAudioxx.loop = false;
 VanzAudioxx.autoplay = false;
 VanzAudioxx.onended = function () {
-  OpenMenux();
   BarsContainer.classList.remove("MusicActive");
   VanzNavMusic.classList.remove("VanzNavMusicShow");
 };
