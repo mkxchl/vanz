@@ -47,6 +47,12 @@ body {
 /* Custome Style Start */
 
 @media screen and (min-width: 360px) {
+  body {
+    user-select: none;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
   /* body.BgNeumorphism {
     background: #dde1e7;
     transition: 0.5s ease-in-out;
