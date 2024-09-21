@@ -121,6 +121,7 @@ function CloseNavMusicx() {
 //   }, 10000);
 }
 function CloseAAllNavMusic() {
+  klik.play();
   VanzNavMusic.classList.remove("VanzNavMusicShow");
 }
 /// Function Links ///
