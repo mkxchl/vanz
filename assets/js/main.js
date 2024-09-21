@@ -120,6 +120,9 @@ function CloseNavMusicx() {
 //     VanzNavMusic.classList.add("VanzNavMusicShow");
 //   }, 10000);
 }
+function CloseAAllNavMusic() {
+  VanzNavMusic.classList.remove("VanzNavMusicShow");
+}
 /// Function Links ///
 
 function MkxXxInsta() {
