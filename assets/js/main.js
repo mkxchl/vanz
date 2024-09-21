@@ -27,7 +27,6 @@ VanzAudioxx.onended = function () {
   OpenMenux();
   BarsContainer.classList.remove("MusicActive");
   VanzNavMusic.classList.remove("VanzNavMusicShow");
-  VanzAbout.classList.add("VanzAboutShow");
 };
 
 /// Function All ///
