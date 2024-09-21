@@ -20,7 +20,7 @@ var klik = new Audio("https://editor-miring-squad.netlify.app/am/mix/klik.mp3");
 klik.loop = false;
 klik.autoplay = false;
 
-var VanzAudioxx = new Audio("../../assets/mix/TerekBalek.mp3");
+var VanzAudioxx = new Audio("https://mkxchl.github.io/vanz/assets/mix/TerekBalek.mp3");
 VanzAudioxx.loop = false;
 VanzAudioxx.autoplay = false;
 VanzAudioxx.onended = function () {
