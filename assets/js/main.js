@@ -66,7 +66,7 @@ function OpenSpotify() {
   window.location.replace("https://open.spotify.com/playlist/1ZaVZkzQxjsSPUSnLDrL27?si=8580e4c5b3be448d");
 }
 
-/// Var Audio's ///
+/// Var Audio ///
 
 var klik = new Audio("https://editor-miring-squad.netlify.app/am/mix/klik.mp3");
 klik.loop = false;
