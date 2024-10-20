@@ -1,23 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Marchell Kevandra - Profiles</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Nav Background  -->
-    <meta name="theme-color" content="#2d5cfe" />
-    <!-- Google Search Console -->
-    <meta name="google-site-verification" content="kZrI3e531cfnW2f8wWMM78KqvZzFEQbZxXc3XfEu8wA" />
-    <!-- Meta Property Description Original -->
+<html lang="id">
+<head>
+    <title>Vanz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="My Profiles" />
     <meta property="og:description" content="Marchell Kevandra" />
-    <meta property="og:url" content="https://editor-miring-squad.netlify.app/" />
+    <meta property="og:url" content="https://mkxchl.github.io/" />
     <meta property="og:image" content="https://mkxchl.github.io/vanz/assets/img/logo.jpg" />
     <meta property="og:image:secure_url" content="https://mkxchl.github.io/vanz/assets/img/logo.jpg" />
     <meta property="og:author" content="Marchell Kevandra" />
     <!-- Meta Property Description Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://ems-links.netlify.app/" />
+    <meta property="twitter:url" content="https://mkxchl.github.io/" />
     <meta property="twitter:title" content="My Profiles" />
     <meta property="twitter:description" content="Marchell Kevandra" />
     <meta property="twitter:image:secure_url" content="https://mkxchl.github.io/vanz/assets/img/logo.jpg" />
@@ -33,162 +28,255 @@
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
     <!-- Link Rel Assets Css -->
     <link href="assets/css/style.css" rel="stylesheet" />
-  </head>
-  <body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;" onload="MkxchlLoad()">
-    <!-- Card Body -->
-    <div class="card overflow" data-state="#home">
-      <div class="card-header">
-        <div class="card-cover"></div>
-        <!-- <i class="ri-moon-line change-theme" id="theme-button"></i> -->
-        <img class="card-avatar hati" onclick="mkImageTouch()" src="assets/img/Profile.png" alt="avatar" />
-        <h1 class="card-fullname">Marchell Kevandra</h1>
-        <h2 class="card-jobtitle">Shut the fuck up</h2>
-      </div>
-      <div class="card-main">
-        <div class="card-section is-active" id="home">
-          <div class="card-content">
-            <div class="card-subtitle">
-              <p class="mk-cont">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A vero temporibus qui, magnam odio saepe dolor labore, impedit praesentium aut porro doloribus autem accusamus neque, excepturi vel inventore delectus commodi?</p>
+</head>
+<body>
+    <div class="VanzXCard">
+        <div class="VanzXCardThumb"></div>
+        <div class="VanzXCardIcMenu">
+            <i class="bx bx-menu" onclick="OpenMenu()"></i>
+        </div>
+        <div class="VanzXCardImg">
+            <img src="assets/img/vanzAi2.JPG" alt="">
+        </div>
+        <div class="VanzXCardIcons">
+            <i class='bx bxl-visual-studio'></i>
+            <i class='bx bxs-check-shield'></i>
+            <!-- <i class="bx bxl-instagram"></i> -->
+            <!-- <i class="bx bxl-facebook"></i> -->
+            <!-- <i class="bx bxl-tiktok"></i> -->
+            <i class="bx bx-code"></i>
+        </div>
+        <div class="VanzXCardDetails">
+            <h4>Marchell Kevandra <i class='bx bxs-badge-check'></i></h4>
+            <p>mrchellkvandra <span>- Xiann.</span></p>
+        </div>
+        <main>
+            <section class="filters">
+                <div class="VanzXCardHeaderTitle">
+                    <button class="VanzBtnActive" data-target="#About" onclick="OpenAbout()">About Me</button>
+                    <!-- <button data-target="#Activity" id="XActivity">Music</button> -->
+                    <button data-target="#Connection" id="XConnection">Connection</button>
+                    <!-- <button data-target="#Teams" id="XTeams">Teams</button> -->
+                </div>
+                <div class="FilterSection">
+                    <div class="AboutContent FiltersActive" data-content id="About">
+                        <div class="VanzXCardAbout">
+                            <h4>About Us</h4>
+                            <div class="VanzXCardAboutDetail">
+                                <p>Stay Cool</p>
+                            </div>
+                        </div> 
+                        <div class="VanzXCardAbout">
+                            <h4>Stay In</h4>
+                            <div class="VanzXCardAboutDetail">
+                                <p>Jakarta, Indonesia</p>
+                            </div>
+                        </div>
+                        <div class="VanzXCardAboutSince">
+                            <div class="VanzXCardAboutSinceHeader">
+                                <h4>Member Since</h4>
+                                <div class="VanzXCardAboutSinceContentList">
+                                    <div class="VanzXCardAboutSinceContent">
+                                        <i class="bx bxl-facebook"></i>
+                                        <p>Aug 16, 2012</p>
+                                    </div>
+                                    <div class="VanzXCardAboutSinceContent">
+                                        <i class='bx bxl-discord-alt'></i>
+                                        <p>July 16, 2019</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="VanzXCardAboutNote">
+                            <h4>Note</h4>
+                            <div class="VanzXCardAboutNoteContent">
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="ActivityContent" data-content id="Activity">
+
+                    </div> -->
+                    <div class="ConnectionContent" data-content id="Connection">
+                        <div class="ConnectionList">
+                            <div class="ConnectionListContent">
+                                <i class="bx bxl-facebook"></i>
+                                <p>Facebook</p>
+                            </div>
+                            <div class="ConnectionListContent">
+                                <i class="bx bxl-instagram"></i>
+                                <p>Instagram</p>
+                            </div>
+                            <div class="ConnectionListContent">
+                                <i class="bx bxl-steam"></i>
+                                <p>Steam</p>
+                            </div>
+                            <div class="ConnectionListContent">
+                                <i class="bx bxl-spotify"></i>
+                                <p>Spotify</p>
+                            </div>
+                            <div class="ConnectionListContent">
+                                <i class="bx bxl-tiktok"></i>
+                                <p>Tiktok</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="TeamsContent" data-content id="Teams">
+                        <div class="TeamList">
+                            <div class="TeamListContent">
+                                <img src="https://editor-miring-squad.netlify.app/assets/images/tca.jpg" alt="">
+                                <div class="TeamListContentDetail">
+                                    <h4>Trisakti Cyber Army</h4>
+                                    <p>Since 2017</p>
+                                </div>
+                            </div>
+                            <div class="TeamListContent">
+                                <img src="https://editor-miring-squad.netlify.app/assets/images/TNG.jpg" alt="">
+                                <div class="TeamListContentDetail">
+                                    <h4>TNG Programmer</h4>
+                                    <p>Since 2017</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+        </main>
+        <!-- <div class="VanzXCardAbout">
+            <h4>Focus on</h4>
+            <div class="VanzXCardAboutDetail">
+                <p>Data Analyst, Laravel</p>
             </div>
-          </div>
-          <!-- <button class="btn-home" onclick="OpenMenu()">Get Started</button> -->
         </div>
-        <!-- Card Profile -->
-        <div class="card-section" id="profile">
-          <div class="MKOverflowx">
-            <div class="card-content">
-              <div class="card-timeline">
-                <div class="card-item">
-                  <div class="card-item-title">Name</div>
-                  <div class="card-item-desc">
-                    <!-- <i class="bx bx-chevron-right"></i> -->
-                    <p>Marchell Kevandra</p>
-                  </div>
-                </div>
-                <div class="card-item">
-                    <div class="card-item-title">Stay In</div>
-                    <div class="card-item-desc">
-                      <!-- <i class='bx bx-location-plus'></i> -->
-                      <p>Jakarta, Indonesia</p>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <div class="card-item-title">Focus on</div>
-                    <div class="card-item-desc">
-                      <!-- <i class='bx bx-code'></i> -->
-                      <p>Data Analyst</p>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <div class="card-item-title">Hobby</div>
-                    <div class="card-item-desc">
-                      <!-- <i class='bx bx-body'></i> -->
-                      <p>Listening Music, Basket Ball</p>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <div class="card-item-title">Prodi</div>
-                    <div class="card-item-desc">
-                      <!-- <i class='bx bx-note'></i> -->
-                      <p>Informatics Engineering</p>
-                    </div>
-                </div>
-              </div>
+        <div class="VanzXCardAbout">
+            <h4>Stay In</h4>
+            <div class="VanzXCardAboutDetail">
+                <p>China, Shanghai</p>
             </div>
-          </div>
-        </div>
-        <!-- Card Contact -->
-        <div class="card-section" id="contact">
-          <div class="card-content">
-            <div class="card-contact-wrapper">
-              <div class="card-contact" onclick="mkInstagram()">
-                <i class="fab fa-instagram"></i>
-                <p class="title-cont">Instagram</p>
-              </div>
-              <div class="card-contact" onclick="mkFacebook()">
-                <i class="fas bx bxl-facebook"></i>
-                <p class="title-cont">Facebook</p>
-              </div>
-              <div class="card-contact" onclick="mkTiktok()">
-                <i class="fas bx bxl-tiktok"></i>
-                <p class="title-cont">Tiktok</p>
-              </div>
-              <div class="card-contact" onclick="mkTiktok()">
-              <i class='fas bx bxl-twitter'></i>
-                <p class="title-cont">Twitter</p>
-              </div>
+        </div> -->
+        <!-- <div class="VanzXCardAbout">
+            <h4>Status</h4>
+            <div class="VanzXCardAboutDetail">
+                <p>Mahasiswa</p>
             </div>
-          </div>
-        </div>
-        <!-- Card Button -->
-        <div class="card-buttons">
-            <button data-section="#profile" onclick="PlayMusic()">PROFILE</button>
-            <button data-section="#home" class="is-active">HOME</button>
-          <button data-section="#contact">CONTACT</button>
-        </div>
-      </div>
+        </div> -->
+        <!-- <div class="VanzXCardBtn">
+            <h4>Learn More</h4>
+        </div> -->
     </div>
-
-    <!-- Style JS -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
-    <!-- Library JS -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.all.min.js"></script>
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <!-- <script>
-      var textArray = ["Last Child - Duka.", "Jakarta Hari Ini - Stereo Wall", "Kawan Sejalan - Reggae"];
-      var currentIndex = 0;
-      function changeText() {
-        var element = document.getElementById("Mkx_Change");
-        element.classList.remove("show");
-        element.innerHTML = textArray[currentIndex];
-        currentIndex = (currentIndex + 1) % textArray.length;
-      }
-      setTimeout(function () {
-        element.innerHTML = textArray[currentIndex];
-        currentIndex = (currentIndex + 1) % textArray.length;
-        element.classList.add("show");
-      }, 500);
-
-      setInterval(changeText, 9000);
-    </script>
-    <script>
-      var mktextArray = ["BasketBall", "Football", "Developer"];
-      var currentIndex = 0;
-      function changeText() {
-        var element = document.getElementById("Mkx_Bio_Change");
-        element.classList.remove("show");
-        element.innerHTML = mktextArray[currentIndex];
-        currentIndex = (currentIndex + 1) % mktextArray.length;
-      }
-      setTimeout(function () {
-        element.innerHTML = mktextArray[currentIndex];
-        currentIndex = (currentIndex + 1) % mktextArray.length;
-        element.classList.add("show");
-      }, 500);
-
-      setInterval(changeText, 9000);
-    </script> -->
-    <script>
-      document.onkeydown = function (e) {
-        if (e.keyCode == 123) {
-          return false;
-        }
-        if (e.ctrlKey && e.shiftKey && e.keyCode == "I".charCodeAt(0)) {
-          return false;
-        }
-        if (e.ctrlKey && e.shiftKey && e.keyCode == "J".charCodeAt(0)) {
-          return false;
-        }
-        if (e.ctrlKey && e.keyCode == "U".charCodeAt(0)) {
-          return false;
-        }
-
-        if (e.ctrlKey && e.shiftKey && e.keyCode == "C".charCodeAt(0)) {
-          return false;
-        }
-      };
-    </script>
-  </body>
+    <div class="VanzMenu">
+        <div class="VanzMenuOverlay" onclick="CloseOverlay()"></div>
+        <div class="VanzMenuContent">
+            <div class="VanzMenuDivider">
+                <div class="VanzMenuDividerLine"></div>
+            </div>
+            <div class="VanzMenuHeader">
+                <h4>Menu</h4>
+            </div>
+            <div class="VanzMenuList" onclick="OpenMusic()">
+                <i class='bx bx-headphone'></i>
+                <div class="VanzMenuListContent">
+                    <h4>Music</h4>
+                </div>
+            </div>
+            <div class="VanzMenuList" onclick="OpenGame()">
+                <i class='bx bx-joystick'></i>
+                <div class="VanzMenuListContent">
+                    <h4>Game</h4>
+                </div>
+            </div>
+            <div class="VanzMenuList" onclick="OpenGalery()">
+                <i class='bx bx-images'></i>
+                <div class="VanzMenuListContent">
+                    <h4>Galery</h4>
+                </div>
+            </div>
+            <div class="VanzMenuHeader">
+                <h4>STORE</h4>
+            </div>
+            <div class="VanzMenuList">
+                <i class='bx bx-store'></i>
+                <div class="VanzMenuListContent">
+                    <h4>Official Mkxchl Store</h4>
+                </div>
+            </div>
+            <div class="VanzMenuList">
+                <i class='bx bx-store'></i>
+                <div class="VanzMenuListContent">
+                    <h4>Make Website</h4>
+                </div>
+            </div>
+            <div class="VanzMenuHeader">
+                <h4>Project</h4>
+            </div>
+            <div class="VanzMenuList">
+                <i class='bx bx-edit-alt'></i>
+                <div class="VanzMenuListContent">
+                    <h4>Vanz Project</h4>
+                </div>
+            </div>
+            <div class="VanzMenuHeader">
+                <h4>Contact</h4>
+            </div>
+            <div class="VanzMenuList">
+                <i class='bx bxl-instagram'></i>
+                <div class="VanzMenuListContent">
+                    <h4>Marchell Kevandra</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="VanzGame">
+        <div class="VanzGameOverlay" onclick="CloseOverlay()"></div>
+        <div class="VanzGameContent">
+            <div class="VanzGameDivider">
+                <div class="VanzGameDividerLine"></div>
+            </div>
+            <div class="VanzGameHeader">
+                <h4>Game</h4>
+            </div>
+            <div class="VanzGameList" onclick="OpenMusic()">
+                <i class='bx bxs-virus'></i>
+                <div class="VanzGameListContent">
+                    <h4>Check Khodam</h4>
+                </div>
+            </div>
+            <div class="VanzGameList">
+                <i class='bx bx-joystick'></i>
+                <div class="VanzGameListContent">
+                    <h4>Menja</h4>
+                </div>
+            </div>
+            <div class="VanzGameList">
+                <i class='bx bx-joystick'></i>
+                <div class="VanzGameListContent">
+                    <h4>Fluppy Bird</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="VanzMusic">
+        <div class="VanzMusicOverlay" onclick="CloseOverlay()"></div>
+        <div class="VanzMusicContent">
+            <div class="VanzMusicDivider">
+                <div class="VanzMusicDividerLine"></div>
+            </div>
+            <div class="VanzMusicMeta">
+                <div class="VanzMusicMetaIc">
+                    <i class="bx bxl-spotify"></i>
+                </div>
+                <div class="VanzMusicDetail">
+                    <h4>Marchell Kevandra</h4>
+                    <p>Spotify Playlist</p>
+                </div>
+                <div class="VanzMusicBtn">
+                    <button type="button">
+                        Open Playlist
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
 </html>
