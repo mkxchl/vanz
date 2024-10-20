@@ -99,23 +99,23 @@
                     </div> -->
                     <div class="ConnectionContent" data-content id="Connection">
                         <div class="ConnectionList">
-                            <div class="ConnectionListContent">
+                            <div class="ConnectionListContent" onclick="OpenFb()">
                                 <i class="bx bxl-facebook"></i>
                                 <p>Facebook</p>
                             </div>
-                            <div class="ConnectionListContent">
+                            <div class="ConnectionListContent" onclick="OpenIg()">
                                 <i class="bx bxl-instagram"></i>
                                 <p>Instagram</p>
                             </div>
-                            <div class="ConnectionListContent">
+                            <div class="ConnectionListContent" onclick="OpenSteam()">
                                 <i class="bx bxl-steam"></i>
                                 <p>Steam</p>
                             </div>
-                            <div class="ConnectionListContent">
+                            <div class="ConnectionListContent" onclick="OpenProfilSpotify()">
                                 <i class="bx bxl-spotify"></i>
                                 <p>Spotify</p>
                             </div>
-                            <div class="ConnectionListContent">
+                            <div class="ConnectionListContent" onclick="OpenTiktok()">
                                 <i class="bx bxl-tiktok"></i>
                                 <p>Tiktok</p>
                             </div>
@@ -173,7 +173,7 @@
             <div class="VanzMenuHeader">
                 <h4>Menu</h4>
             </div>
-            <div class="VanzMenuList" onclick="OpenSpotify()">
+            <div class="VanzMenuList" onclick="OpenMusic()">
                 <i class='bx bx-headphone'></i>
                 <div class="VanzMenuListContent">
                     <h4>Music</h4>
@@ -200,12 +200,12 @@
                     <h4>Official Mkxchl Store</h4>
                 </div>
             </div>
-            <div class="VanzMenuList">
+            <!-- <div class="VanzMenuList">
                 <i class='bx bx-store'></i>
                 <div class="VanzMenuListContent">
                     <h4>Make Website</h4>
                 </div>
-            </div>
+            </div> -->
             <div class="VanzMenuHeader">
                 <h4>Project</h4>
             </div>
@@ -270,7 +270,7 @@
                     <p>Spotify Playlist</p>
                 </div>
                 <div class="VanzMusicBtn">
-                    <button type="button">
+                    <button type="button" onclick="OpenSpotify()">
                         Open Playlist
                     </button>
                 </div>
