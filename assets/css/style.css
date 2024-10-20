@@ -27,8 +27,19 @@ body {
     align-items: center;
     place-content: center;
     background-color: #edf6e1;
+    overflow: hidden;
 }
 @media screen and (min-width: 360px) {
+    body {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        place-content: center;
+        background-color: #edf6e1;
+        overflow: hidden;
+    }
     .VanzXCard {
         position: relative;
         margin-right: 20px;
