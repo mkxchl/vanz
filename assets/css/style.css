@@ -152,6 +152,7 @@ body {
     .VanzXCardAboutSinceContentList {
         position: relative;
         display: flex;
+        place-content: center;
     }
     .VanzXCardAboutSinceContent {
         position: relative;
@@ -164,7 +165,7 @@ body {
         justify-content: center;
         place-content: center;
         align-items: center;
-        font-size: 16px;
+        font-size: 20px;
         margin-right: 5px;
     }
     .VanzXCardAboutSinceContent p {
@@ -172,7 +173,7 @@ body {
         justify-content: center;
         place-content: center;
         align-items: center;
-        font-size: 12px;
+        font-size: 15px;
     }
     .VanzXCardAboutNote {
         position: relative;
