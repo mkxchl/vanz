@@ -1,1 +1,94 @@
-const _0x2849a4=_0x2249;(function(_0x12bc2c,_0x3c0067){const _0x5a9d99=_0x2249,_0x4de3cb=_0x12bc2c();while(!![]){try{const _0x562198=parseInt(_0x5a9d99(0x1bc))/0x1+parseInt(_0x5a9d99(0x1b0))/0x2*(parseInt(_0x5a9d99(0x19f))/0x3)+-parseInt(_0x5a9d99(0x1b1))/0x4*(parseInt(_0x5a9d99(0x1a2))/0x5)+-parseInt(_0x5a9d99(0x197))/0x6*(-parseInt(_0x5a9d99(0x18f))/0x7)+-parseInt(_0x5a9d99(0x1a1))/0x8+-parseInt(_0x5a9d99(0x1af))/0x9+parseInt(_0x5a9d99(0x1a7))/0xa;if(_0x562198===_0x3c0067)break;else _0x4de3cb['push'](_0x4de3cb['shift']());}catch(_0x516360){_0x4de3cb['push'](_0x4de3cb['shift']());}}}(_0x32d6,0x2b3c0));const VanzXCard=document[_0x2849a4(0x19c)](_0x2849a4(0x1b2)),XAbout=document[_0x2849a4(0x1b8)](_0x2849a4(0x19b)),XActivity=document[_0x2849a4(0x1b8)](_0x2849a4(0x1ae)),XConnect=document[_0x2849a4(0x1b8)](_0x2849a4(0x1a0)),VanzMenu=document['querySelector'](_0x2849a4(0x1b3)),VanzGame=document['querySelector'](_0x2849a4(0x1a5)),VanzMenuOverlay=document[_0x2849a4(0x19c)]('.VanzMenuOverlay'),VanzMusicOverlay=document[_0x2849a4(0x19c)](_0x2849a4(0x1bb)),VanzGameOverlay=document['querySelector'](_0x2849a4(0x1ab)),VanzMusic=document[_0x2849a4(0x19c)](_0x2849a4(0x190)),tabs=document[_0x2849a4(0x199)](_0x2849a4(0x19d)),tabContents=document['querySelectorAll']('[data-content]');tabs['forEach'](_0x4cadf2=>{const _0x5bd59d=_0x2849a4;_0x4cadf2[_0x5bd59d(0x192)]('click',()=>{const _0x2009f0=_0x5bd59d,_0x58d761=document[_0x2009f0(0x19c)](_0x4cadf2['dataset']['target']);tabContents['forEach'](_0x429b4b=>{const _0x593d64=_0x2009f0;klik[_0x593d64(0x194)](),_0x429b4b[_0x593d64(0x1b6)][_0x593d64(0x1b7)](_0x593d64(0x191));}),_0x58d761[_0x2009f0(0x1b6)][_0x2009f0(0x1ad)](_0x2009f0(0x191)),tabs[_0x2009f0(0x1b9)](_0x449111=>{const _0x91f116=_0x2009f0;klik[_0x91f116(0x194)](),_0x449111[_0x91f116(0x1b6)][_0x91f116(0x1b7)](_0x91f116(0x1a4));}),_0x4cadf2[_0x2009f0(0x1b6)][_0x2009f0(0x1ad)](_0x2009f0(0x1a4)),klik[_0x2009f0(0x194)]();});});function OpenMenu(){const _0x515746=_0x2849a4;VanzMenu[_0x515746(0x1b6)][_0x515746(0x1ad)](_0x515746(0x19a)),VanzXCard[_0x515746(0x1ba)][_0x515746(0x1aa)]=_0x515746(0x198),klik[_0x515746(0x194)]();}function CloseOverlay(){const _0x1a2542=_0x2849a4;klik['play'](),VanzXCard[_0x1a2542(0x1ba)][_0x1a2542(0x1aa)]=_0x1a2542(0x18e),VanzMenu[_0x1a2542(0x1b6)][_0x1a2542(0x1b7)](_0x1a2542(0x19a)),VanzMusic[_0x1a2542(0x1b6)][_0x1a2542(0x1b7)]('VanzMusicShow'),VanzGame[_0x1a2542(0x1b6)][_0x1a2542(0x1b7)](_0x1a2542(0x196));}function OpenMusic(){const _0x444384=_0x2849a4;klik[_0x444384(0x194)](),VanzMusic[_0x444384(0x1b6)][_0x444384(0x1ad)](_0x444384(0x1ac)),VanzMenu[_0x444384(0x1b6)]['remove'](_0x444384(0x19a)),VanzGame['classList'][_0x444384(0x1b7)](_0x444384(0x196));}function OpenGame(){const _0x4e6c56=_0x2849a4;klik[_0x4e6c56(0x194)](),VanzMenu['classList']['remove'](_0x4e6c56(0x19a)),VanzGame['classList'][_0x4e6c56(0x1ad)](_0x4e6c56(0x196));}function OpenGalery(){const _0x5a6756=_0x2849a4;klik['play'](),window[_0x5a6756(0x19e)][_0x5a6756(0x195)](_0x5a6756(0x1a9));}function _0x32d6(){const _0x50f2c3=['33uNMvsH','#Connect','2819424SWuIed','1915aDOlLd','https://facebook.com/chellgnzxz','VanzBtnActive','.VanzGame','https://steamcommunity.com/profiles/76561198858660119/','4465850BQWaOw','loop','galery/','overflow','.VanzGameOverlay','VanzMusicShow','add','#Activity','2236932mMNXRF','33482jyzZkL','1076YmXACT','.VanzXCard','.VanzMenu','https://tiktok.com/@mkxchl','https://editor-miring-squad.netlify.app/am/mix/klik.mp3','classList','remove','getElementById','forEach','style','.VanzMusicOverlay','142562ahcsjS','auto','1421dDxvQv','.VanzMusic','FiltersActive','addEventListener','https://open.spotify.com/user/31ubcol5qj4y6mu3ifoxqbjgzpma?si=c48b3b26de694129','play','replace','VanzGameShow','3186hLgSTD','hidden','querySelectorAll','VanzMenuShow','#XAbout','querySelector','[data-target]','location'];_0x32d6=function(){return _0x50f2c3;};return _0x32d6();}function OpenSpotify(){const _0x29f959=_0x2849a4;klik[_0x29f959(0x194)](),window[_0x29f959(0x19e)][_0x29f959(0x195)]('https://open.spotify.com/playlist/1ZaVZkzQxjsSPUSnLDrL27?si=8580e4c5b3be448d');}var klik=new Audio(_0x2849a4(0x1b5));klik[_0x2849a4(0x1a8)]=![],klik['autoplay']=![];function OpenIg(){const _0x183938=_0x2849a4;klik[_0x183938(0x194)](),window[_0x183938(0x19e)][_0x183938(0x195)]('https://instagram.com/marchell_kevandra');}function OpenSteam(){const _0xb66272=_0x2849a4;klik['play'](),window[_0xb66272(0x19e)]['replace'](_0xb66272(0x1a6));}function OpenFb(){const _0x49a6ec=_0x2849a4;klik[_0x49a6ec(0x194)](),window[_0x49a6ec(0x19e)][_0x49a6ec(0x195)](_0x49a6ec(0x1a3));}function OpenTiktok(){const _0x399049=_0x2849a4;klik[_0x399049(0x194)](),window[_0x399049(0x19e)][_0x399049(0x195)](_0x399049(0x1b4));}function _0x2249(_0x592b5e,_0x5f3ae9){const _0x32d633=_0x32d6();return _0x2249=function(_0x22491d,_0x169a53){_0x22491d=_0x22491d-0x18e;let _0x552ef4=_0x32d633[_0x22491d];return _0x552ef4;},_0x2249(_0x592b5e,_0x5f3ae9);}function OpenProfilSpotify(){const _0x49131f=_0x2849a4;klik['play'](),window[_0x49131f(0x19e)][_0x49131f(0x195)](_0x49131f(0x193));}
+/*=============== FILTERS TABS ===============*/
+const VanzXCard = document.querySelector(".VanzXCard");
+const XAbout = document.getElementById("#XAbout");
+const XActivity = document.getElementById("#Activity");
+const XConnect = document.getElementById("#Connect");
+const VanzMenu = document.querySelector(".VanzMenu");
+const VanzGame = document.querySelector(".VanzGame");
+const VanzMenuOverlay = document.querySelector(".VanzMenuOverlay");
+const VanzMusicOverlay = document.querySelector(".VanzMusicOverlay");
+const VanzGameOverlay = document.querySelector(".VanzGameOverlay");
+const VanzMusic = document.querySelector(".VanzMusic");
+
+const tabs = document.querySelectorAll("[data-target]"),
+  tabContents = document.querySelectorAll("[data-content]");
+
+tabs.forEach((tab) => {
+  tab.addEventListener("click", () => {
+    const target = document.querySelector(tab.dataset.target);
+
+    tabContents.forEach((tc) => {
+      klik.play();
+      tc.classList.remove("FiltersActive");
+    });
+    target.classList.add("FiltersActive");
+
+    tabs.forEach((t) => {
+      klik.play();
+      t.classList.remove("VanzBtnActive");
+    });
+    tab.classList.add("VanzBtnActive");
+    klik.play();
+  });
+});
+
+function OpenMenu() {
+  VanzMenu.classList.add("VanzMenuShow");
+  VanzXCard.style.overflow = "hidden";
+  klik.play();
+}
+function CloseOverlay() {
+  klik.play();
+  VanzXCard.style.overflow = "auto";
+  VanzMenu.classList.remove("VanzMenuShow");
+  VanzMusic.classList.remove("VanzMusicShow");
+  VanzGame.classList.remove("VanzGameShow");
+}
+function OpenMusic() {
+  klik.play();
+  VanzMusic.classList.add("VanzMusicShow");
+  VanzMenu.classList.remove("VanzMenuShow");
+  VanzGame.classList.remove("VanzGameShow");
+}
+function OpenGame() {
+  klik.play();
+  VanzMenu.classList.remove("VanzMenuShow");
+  VanzGame.classList.add("VanzGameShow");
+}
+function OpenGalery() {
+  klik.play();
+  window.location.replace("galery/");
+}
+// Link
+
+function OpenSpotify() {
+  klik.play();
+  window.location.replace("https://open.spotify.com/playlist/1ZaVZkzQxjsSPUSnLDrL27?si=8580e4c5b3be448d");
+}
+
+/// Var Audio's ///
+
+var klik = new Audio("https://editor-miring-squad.netlify.app/am/mix/klik.mp3");
+klik.loop = false;
+klik.autoplay = false;
+
+function OpenIg() {
+  klik.play();
+  window.location.replace("https://instagram.com/marchell_kevandra");
+}
+function OpenSteam() {
+  klik.play();
+  window.location.replace("https://steamcommunity.com/profiles/76561198858660119/");
+}
+function OpenFb() {
+  klik.play();
+  window.location.replace("https://facebook.com/chellgnzxz");
+}
+function OpenTiktok() {
+  klik.play();
+  window.location.replace("https://tiktok.com/@mkxchl");
+}
+function OpenProfilSpotify() {
+  klik.play();
+  window.location.replace("https://open.spotify.com/user/31ubcol5qj4y6mu3ifoxqbjgzpma?si=c48b3b26de694129");
+}
