@@ -1,130 +1,73 @@
-/// Button Card Body Active Function ///
+/*=============== FILTERS TABS ===============*/
+const VanzXCard = document.querySelector(".VanzXCard");
+const XAbout = document.getElementById("#XAbout");
+const XActivity = document.getElementById("#Activity");
+const XConnect = document.getElementById("#Connect");
+const VanzMenu = document.querySelector(".VanzMenu");
+const VanzGame = document.querySelector(".VanzGame");
+const VanzMenuOverlay = document.querySelector(".VanzMenuOverlay");
+const VanzMusicOverlay = document.querySelector(".VanzMusicOverlay");
+const VanzGameOverlay = document.querySelector(".VanzGameOverlay");
+const VanzMusic = document.querySelector(".VanzMusic");
 
-const buttons = document.querySelectorAll(".card-buttons button");
-const sections = document.querySelectorAll(".card-section");
-const card = document.querySelector(".card");
-const VanzNavMusic = document.querySelector(".VanzNavMusic");
-const VanzNavMusicContent = document.querySelector(".VanzNavMusicContent");
-const VanzNavMusicOverlay = document.querySelector(".VanzNavMusicOverlay");
-const BarsContainer = document.querySelector(".bars");
+const tabs = document.querySelectorAll("[data-target]"),
+  tabContents = document.querySelectorAll("[data-content]");
 
-const handleButtonClick = (e) => {
-  const targetSection = e.target.getAttribute("data-section");
-  const section = document.querySelector(targetSection);
-  targetSection !== "#home" ? card.classList.add("is-active") : card.classList.remove("is-active");
-  card.setAttribute("data-state", targetSection);
-  sections.forEach((s) => s.classList.remove("is-active"));
-  buttons.forEach((b) => b.classList.remove("is-active"));
-  e.target.classList.add("is-active");
-  section.classList.add("is-active");
-};
+tabs.forEach((tab) => {
+  tab.addEventListener("click", () => {
+    const target = document.querySelector(tab.dataset.target);
 
-buttons.forEach((btn) => {
-  btn.addEventListener("click", handleButtonClick);
-});
+    tabContents.forEach((tc) => {
+      klik.play();
+      tc.classList.remove("FiltersActive");
+    });
+    target.classList.add("FiltersActive");
 
-var VanzAudioxx = new Audio("https://mkxchl.github.io/vanz/assets/mix/Sycho.mp3");
-VanzAudioxx.loop = false;
-VanzAudioxx.autoplay = false;
-
-var VanzAudioxxX = new Audio("https://mkxchl.github.io/vanz/assets/mix/TerekBalek.mp3");
-VanzAudioxxX.loop = false;
-VanzAudioxxX.autoplay = false;
-
-VanzAudioxx.onended = function () {
-  VanzAudioxxX.play();
-  };
-
-function VanzLoad() {
-  setTimeout(function () {
-    VanzNavMusic.classList.add("VanzNavMusicShow");
-  }, 1000);
-}
-function PlayMusic() {
-    VanzAudioxx.play();
-}
-/// Dark Mode Function ///
-
-const themeButton = document.getElementById("theme-button");
-const darkTheme = "dark-theme";
-const iconTheme = "ri-sun-line";
-const selectedTheme = localStorage.getItem("selected-theme");
-const selectedIcon = localStorage.getItem("selected-icon");
-const getCurrentTheme = () => (document.body.classList.contains(darkTheme) ? "dark" : "light");
-const getCurrentIcon = () => (themeButton.classList.contains(iconTheme) ? "ri-moon-line" : "ri-sun-line");
-
-if (selectedTheme) {
-  document.body.classList[selectedTheme === "dark" ? "add" : "remove"](darkTheme);
-  themeButton.classList[selectedIcon === "ri-moon-line" ? "add" : "remove"](iconTheme);
-}
-
-themeButton.addEventListener("click", () => {
-  document.body.classList.toggle(darkTheme);
-  themeButton.classList.toggle(iconTheme);
-  localStorage.setItem("selected-theme", getCurrentTheme());
-  localStorage.setItem("selected-icon", getCurrentIcon());
-});
-
-const closeBtn = document.querySelector(".close-btn");
-
-closeBtn.addEventListener("click", () => {
-  closeBtn.classList.toggle("open");
-});
-
-function mkAlert() {
-  Swal.fire({
-    icon: "error",
-    title: "Sedang dalam perbaikan, Thanks!",
-    toast: true,
-    position: "center",
-    showConfirmButton: false,
-    timer: 5000,
-    timerProgressBar: true,
+    tabs.forEach((t) => {
+      klik.play();
+      t.classList.remove("VanzBtnActive");
+    });
+    tab.classList.add("VanzBtnActive");
+    klik.play();
   });
+});
+
+function OpenMenu() {
+  VanzMenu.classList.add("VanzMenuShow");
+  VanzXCard.style.overflow = "hidden";
+  klik.play();
 }
-function playMyAudio() {
-  document.getElementById("myAudio").play();
+function CloseOverlay() {
+  klik.play();
+  VanzXCard.style.overflow = "auto";
+  VanzMenu.classList.remove("VanzMenuShow");
+  VanzMusic.classList.remove("VanzMusicShow");
+  VanzGame.classList.remove("VanzGameShow");
+}
+function OpenMusic() {
+  klik.play();
+  VanzMusic.classList.add("VanzMusicShow");
+  VanzMenu.classList.remove("VanzMenuShow");
+  VanzGame.classList.remove("VanzGameShow");
+}
+function OpenGame() {
+  klik.play();
+  VanzMenu.classList.remove("VanzMenuShow");
+  VanzGame.classList.add("VanzGameShow");
+}
+function OpenGalery() {
+  klik.play();
+  window.location.replace("galery/");
+}
+// Link
+
+function OpenSpotify() {
+  klik.play();
+  window.location.replace("https://open.spotify.com/playlist/1ZaVZkzQxjsSPUSnLDrL27?si=8580e4c5b3be448d");
 }
 
-/// Function Link  ///
+/// Var Audio's ///
 
-function mkMusic() {
-  window.location.replace("https://www.google.com/search?q=Marchell+Kevandra");
-}
-function mkFacebook() {
-  window.location.replace("https://www.facebook.com/marchel.ganz");
-}
-function mkInstagram() {
-  window.location.replace("https://www.instagram.com/chellgnzxz_");
-}
-function mkTiktok() {
-  window.location.replace("https://www.tiktok.com/mkxchl");
-}
-function mkWebsite() {
-  window.location.replace("https://mk-links.netlify.app/");
-}
-function mkBucin() {
-  window.location.replace("https://chl-bcn.netlify.app/");
-}
-function mkSoundcloud() {
-  window.location.replace("https://soundcloud.com/marchellkevandra");
-}
-function mkHomesLink() {
-  window.location.replace("/");
-}
-function mkNotif() {
-  openFullscreen(), $(".card , .container , .hearts").fadeOut(500);
-}
-
-var textArray = ["Be your self", "Be carefull", "I Love Girl"];
-var currentIndex = 0;
-var currentText = "";
-
-var interval = setInterval(function () {
-  if (currentIndex == textArray.length) {
-    currentIndex = 0;
-  }
-  currentText = textArray[currentIndex];
-  document.getElementById("text-display").innerHTML = currentText;
-  currentIndex++;
-}, 2000);
+var klik = new Audio("https://editor-miring-squad.netlify.app/am/mix/klik.mp3");
+klik.loop = false;
+klik.autoplay = false;
