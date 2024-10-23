@@ -343,3 +343,6 @@ snowflakes[_0x5455a5(0x12c)](_0x5ccdbd => {
     (_0x5ccdbd['style']['animationDuration'] = _0x2359fe + 's'),
     (_0x5ccdbd['style']['animationDelay'] = _0x30913e + 's')
 })
+
+// vanzzz
+
