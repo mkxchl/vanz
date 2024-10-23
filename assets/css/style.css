@@ -27,39 +27,29 @@ body {
     place-content: center;
     background-color: #edf6e1;
     overflow: hidden;
+    transition: 0.5s ease;
 }
-@media screen and (min-width: 360px) {
-    body {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        justify-content: center;
-        align-items: center;
-        place-content: center;
-        background-color: #edf6e1;
-        overflow: hidden;
-        transition: 0.5s ease;
-    }
-    body.DarkVanz {
+body.DarkVanz {
         background-size: cover;
         background-position: center;
         background-image: url('../img/vanzAi7.JPG');
         backdrop-filter: blur(20px);
         transition: 0.5s ease;
-    }
-    body.DarkVanz .VanzXCard {
+}
+body.DarkVanz .VanzXCard {
         animation: anim 3s infinite;
         background-color: rgba(255, 255, 255, 0.128);
-    }
-    body.DarkVanz .VanzXCard::before {
+}
+body.DarkVanz .VanzXCard::before {
         background-color: rgba(255, 255, 255, 0.128);
-    }
-    body.DarkVanz .VanzXCard .VanzXCardImg img {
+}
+body.DarkVanz .VanzXCard .VanzXCardImg img {
         border: 5px solid rgba(255, 255, 255, 0.128);
-    }
-    body.DarkVanz .VanzXCard .ConnectionList .ConnectionListContent {
+}
+body.DarkVanz .VanzXCard .ConnectionList .ConnectionListContent {
         background-color: rgba(255, 255, 255, 0.128);
-    }
+}
+@media screen and (min-width: 360px) {
     .VanzXCard::-webkit-scrollbar {
         display: none;
         width: 0;
