@@ -60,6 +60,11 @@ body {
     body.DarkVanz .VanzXCard .ConnectionList .ConnectionListContent {
         background-color: rgba(255, 255, 255, 0.128);
     }
+    .VanzXCard::-webkit-scrollbar {
+        display: none;
+        width: 0;
+        height: 0;
+    }
     .VanzXCard {
         position: relative;
         margin-right: 20px;
