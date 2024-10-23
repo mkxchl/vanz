@@ -43,7 +43,7 @@ body {
     body.DarkVanz {
         background-size: cover;
         background-position: center;
-        background-image: url('../img/vanzAi7.jpg');
+        background-image: url('../img/vanzAi7.JPG');
         backdrop-filter: blur(20px);
         transition: 0.5s ease;
     }
