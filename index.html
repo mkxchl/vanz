@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <title>Vanz</title>
     <meta charset="UTF-8">
@@ -10,14 +10,6 @@
     <meta property="og:image" content="https://mkxchl.github.io/vanz/assets/img/logo.jpg" />
     <meta property="og:image:secure_url" content="https://mkxchl.github.io/vanz/assets/img/logo.jpg" />
     <meta property="og:author" content="Marchell Kevandra" />
-    <!-- Meta Property Description Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://mkxchl.github.io/" />
-    <meta property="twitter:title" content="My Profiles" />
-    <meta property="twitter:description" content="Marchell Kevandra" />
-    <meta property="twitter:image:secure_url" content="https://mkxchl.github.io/vanz/assets/img/logo.jpg" />
-    <meta property="twitter:image" content="https://mkxchl.github.io/vanz/assets/img/logo.jpg" />
-    <meta property="twitter:author" content="Marchell Kevandra" />
     <!-- Link Rel Assets Icon -->
     <link rel="icon" type="image/png" sizes="32x32" href="https://mkxchl.github.io/vanz/assets/img/logo.jpg" />
     <link rel="icon" type="image/png" sizes="16x16" href="https://mkxchl.github.io/vanz/assets/img/logo.jpg" />
@@ -29,273 +21,54 @@
     <!-- Link Rel Assets Css -->
     <link href="assets/css/style.css" rel="stylesheet" />
 </head>
-<body onload="VanzXLoad()">
-    <div class="VanzXCard">
-        <div class="VanzXCardThumb"></div>
-        <div class="VanzXCardIcMenu">
-            <i class="bx bx-menu" onclick="OpenMenu()"></i>
+<body>
+    <div class="VzxBody">
+        <div class="VzxMusic" onclick="PlayMusic()">
+            <i class="bx bx-volume-full"></i>
+            <p>Play Music</p>
         </div>
-        <div class="VanzXCardImg">
-            <img src="assets/img/vanzAi7.1.JPG" alt="Marchell Kevandra" id="PictVanz">
+        <div class="VzxBodyImgThumb"></div>
+        <div class="VzxBodyImgProfile">
+            <img src="assets/img/vanzAi7.1.JPG" alt="">
         </div>
-        <div class="VanzXCardIcons">
-            <i class='bx bxl-visual-studio'></i>
-            <i class='bx bxs-check-shield'></i>
-            <!-- <i class="bx bxl-instagram"></i> -->
-            <!-- <i class="bx bxl-facebook"></i> -->
-            <!-- <i class="bx bxl-tiktok"></i> -->
-            <i class="bx bx-code"></i>
+        <div class="VzxBodyDetail">
+            <h4>Marchell Kevandra</h4>
+            <p>Stay Safe</p>
         </div>
-        <div class="VanzXCardDetails">
-            <h4>Marchell Kevandra <i class='bx bxs-badge-check'></i></h4>
-            <p>mrchellkvandra <span>- Xiann.</span></p>
+        <div class="VzxBodyList">
+            <li>
+                <ul class="status">Status <span class="status_info">Study</span></ul>
+                <ul class="VzPlace place">Place <span class="place_info">China</span></ul>
+                <ul class="hobby">Hobby <span class="hobby_info">Coding</span></ul>
+            </li>
         </div>
-        <main>
-            <section class="filters">
-                <div class="VanzXCardHeaderTitle">
-                    <button class="VanzBtnActive" data-target="#About" onclick="OpenAbout()">About Me</button>
-                    <!-- <button data-target="#Activity" id="XActivity">Music</button> -->
-                    <button data-target="#Connection" id="XConnection">Connection</button>
-                    <!-- <button data-target="#Teams" id="XTeams">Teams</button> -->
-                </div>
-                <div class="FilterSection">
-                    <div class="AboutContent FiltersActive" data-content id="About">
-                        <div class="VanzXCardAbout">
-                            <h4>About Us</h4>
-                            <div class="VanzXCardAboutDetail">
-                                <p>Stay Cool</p>
-                            </div>
-                        </div> 
-                        <div class="VanzXCardAbout">
-                            <h4>Stay In</h4>
-                            <div class="VanzXCardAboutDetail">
-                                <p>Jakarta, Indonesia</p>
-                            </div>
-                        </div>
-                        <div class="VanzXCardAboutSince">
-                            <div class="VanzXCardAboutSinceHeader">
-                                <h4>Member Since</h4>
-                                <div class="VanzXCardAboutSinceContentList">
-                                    <div class="VanzXCardAboutSinceContent">
-                                        <i class="bx bxl-facebook"></i>
-                                        <p>Aug 16, 2012</p>
-                                    </div>
-                                    <div class="VanzXCardAboutSinceContent">
-                                        <i class='bx bxl-discord-alt'></i>
-                                        <p>July 16, 2019</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="VanzXCardAboutNote">
-                            <h4>Note</h4>
-                            <div class="VanzXCardAboutNoteContent">
-                                <input type="text">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="ActivityContent" data-content id="Activity">
-
-                    </div> -->
-                    <div class="ConnectionContent" data-content id="Connection">
-                        <div class="ConnectionList">
-                            <div class="ConnectionListContent" onclick="OpenFb()">
-                                <i class="bx bxl-facebook"></i>
-                                <p>Facebook</p>
-                            </div>
-                            <div class="ConnectionListContent" onclick="OpenIg()">
-                                <i class="bx bxl-instagram"></i>
-                                <p>Instagram</p>
-                            </div>
-                            <div class="ConnectionListContent" onclick="OpenSteam()">
-                                <i class="bx bxl-steam"></i>
-                                <p>Steam</p>
-                            </div>
-                            <div class="ConnectionListContent" onclick="OpenProfilSpotify()">
-                                <i class="bx bxl-spotify"></i>
-                                <p>Spotify</p>
-                            </div>
-                            <div class="ConnectionListContent" onclick="OpenTiktok()">
-                                <i class="bx bxl-tiktok"></i>
-                                <p>Tiktok</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="TeamsContent" data-content id="Teams">
-                        <div class="TeamList">
-                            <div class="TeamListContent">
-                                <img src="https://editor-miring-squad.netlify.app/assets/images/tca.jpg" alt="">
-                                <div class="TeamListContentDetail">
-                                    <h4>Trisakti Cyber Army</h4>
-                                    <p>Since 2017</p>
-                                </div>
-                            </div>
-                            <div class="TeamListContent">
-                                <img src="https://editor-miring-squad.netlify.app/assets/images/TNG.jpg" alt="">
-                                <div class="TeamListContentDetail">
-                                    <h4>TNG Programmer</h4>
-                                    <p>Since 2017</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
-            </section>
-        </main>
-        <!-- <div class="VanzXCardAbout">
+        <div class="VzxBodyAbout">
+            <h4>About us</h4>
+            <div class="VzxBodyAboutDesc">
+                <p>where you go?</p>
+            </div>
+        </div>
+        <div class="VzxBodyAbout">
             <h4>Focus on</h4>
-            <div class="VanzXCardAboutDetail">
-                <p>Data Analyst, Laravel</p>
+            <div class="VzxBodyAboutDesc">
+                <p>Laravel, React JS or Native.</p>
             </div>
         </div>
-        <div class="VanzXCardAbout">
-            <h4>Stay In</h4>
-            <div class="VanzXCardAboutDetail">
-                <p>China, Shanghai</p>
-            </div>
-        </div> -->
-        <!-- <div class="VanzXCardAbout">
-            <h4>Status</h4>
-            <div class="VanzXCardAboutDetail">
-                <p>Mahasiswa</p>
-            </div>
-        </div> -->
-        <!-- <div class="VanzXCardBtn">
-            <h4>Learn More</h4>
-        </div> -->
-    </div>
-    <div class="VanzMenu">
-        <div class="VanzMenuOverlay" onclick="CloseOverlay()"></div>
-        <div class="VanzMenuContent">
-            <div class="VanzMenuDivider">
-                <div class="VanzMenuDividerLine"></div>
-            </div>
-            <div class="VanzMenuHeader">
-                <h4>Menu</h4>
-            </div>
-            <div class="VanzMenuList" onclick="OpenMusic()">
-                <i class='bx bx-headphone'></i>
-                <div class="VanzMenuListContent">
-                    <h4>Music</h4>
-                </div>
-            </div>
-            <div class="VanzMenuList" onclick="OpenGame()">
-                <i class='bx bx-joystick'></i>
-                <div class="VanzMenuListContent">
-                    <h4>Game</h4>
-                </div>
-            </div>
-            <div class="VanzMenuList" onclick="OpenGalery()">
-                <i class='bx bx-images'></i>
-                <div class="VanzMenuListContent">
-                    <h4>Galery</h4>
-                </div>
-            </div>
-            <div class="VanzMenuHeader">
-                <h4>STORE</h4>
-            </div>
-            <div class="VanzMenuList">
-                <i class='bx bx-store'></i>
-                <div class="VanzMenuListContent">
-                    <h4>Official Mkxchl Store</h4>
-                </div>
-            </div>
-            <!-- <div class="VanzMenuList">
-                <i class='bx bx-store'></i>
-                <div class="VanzMenuListContent">
-                    <h4>Make Website</h4>
-                </div>
-            </div> -->
-            <div class="VanzMenuHeader">
-                <h4>Project</h4>
-            </div>
-            <div class="VanzMenuList">
-                <i class='bx bx-edit-alt'></i>
-                <div class="VanzMenuListContent">
-                    <h4>Vanz Project</h4>
-                </div>
-            </div>
-            <div class="VanzMenuHeader">
-                <h4>Contact</h4>
-            </div>
-            <div class="VanzMenuList">
-                <i class='bx bxl-instagram'></i>
-                <div class="VanzMenuListContent">
-                    <h4>Marchell Kevandra</h4>
-                </div>
+        <div class="VzxBodyAbout">
+            <h4>Member Since</h4>
+            <div class="VzxBodyAboutDesc">
+                <i class="bx bxl-github"></i>
+                <p class="Since">7 March, 2022</p>
             </div>
         </div>
-    </div>
-    <div class="VanzGame">
-        <div class="VanzGameOverlay" onclick="CloseOverlay()"></div>
-        <div class="VanzGameContent">
-            <div class="VanzGameDivider">
-                <div class="VanzGameDividerLine"></div>
-            </div>
-            <div class="VanzGameHeader">
-                <h4>Game</h4>
-            </div>
-            <div class="VanzGameList" onclick="OpenMusic()">
-                <i class='bx bxs-virus'></i>
-                <div class="VanzGameListContent">
-                    <h4>Check Khodam</h4>
-                </div>
-            </div>
-            <div class="VanzGameList">
-                <i class='bx bx-joystick'></i>
-                <div class="VanzGameListContent">
-                    <h4>Menja</h4>
-                </div>
-            </div>
-            <div class="VanzGameList">
-                <i class='bx bx-joystick'></i>
-                <div class="VanzGameListContent">
-                    <h4>Fluppy Bird</h4>
-                </div>
+        <div class="VxBodySocial">
+            
+        </div>
+        <div class="VzxBodyBtn">
+            <div class="VzxBodyBtnContent">
+                <button>Get Started</button>
             </div>
         </div>
-    </div>
-    <div class="VanzMusic">
-        <div class="VanzMusicOverlay" onclick="CloseOverlay()"></div>
-        <div class="VanzMusicContent">
-            <div class="VanzMusicDivider">
-                <div class="VanzMusicDividerLine"></div>
-            </div>
-            <div class="VanzMusicMeta">
-                <div class="VanzMusicMetaIc">
-                    <i class="bx bxl-spotify"></i>
-                </div>
-                <div class="VanzMusicDetail">
-                    <h4>Marchell Kevandra</h4>
-                    <p>Spotify Playlist</p>
-                </div>
-                <div class="VanzMusicBtn">
-                    <button type="button" onclick="OpenSpotify()">
-                        Open Playlist
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="VanzXNavMusic">
-        <div class="VanzXNavMusicContent">
-            <div class="VanzXNavMusicMeta">
-                <i class="bx IconMusic" id="MusicA" onclick="PlayMusic()"></i>
-                <H2>Play Music</H2>
-            </div>
-        </div>
-    </div>
-    <div class="snowflakes" aria-hidden="true">
-        <div class="snowflake">❄</div>
-        <div class="snowflake">❄</div>
-        <div class="snowflake">❄</div>
-        <div class="snowflake">❄</div>
-        <div class="snowflake">❄</div>
-        <div class="snowflake">❄</div>
-        <div class="snowflake">❄</div>
-        <div class="snowflake">❄</div>
-        <div class="snowflake">❄</div>
-        <div class="snowflake">❄</div>
     </div>
     <script src="assets/js/main.js"></script>
 </body>
